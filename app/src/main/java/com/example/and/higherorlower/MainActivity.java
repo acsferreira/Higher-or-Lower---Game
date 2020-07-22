@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Random rand = new Random();
-    int rand_int1 = rand.nextInt(20);
+    int rand_int1 = rand.nextInt(20)+1;
     String randStr= String.valueOf(rand_int1);
 
 
